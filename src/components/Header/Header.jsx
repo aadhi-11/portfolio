@@ -3,6 +3,7 @@ import Style from './Header.module.css'
 const Header = () => {
   return (
     <div className={Style.Header} >
+            {/* <div className={Style.moving_colors}></div> */}
         <div className={Style.HeaderLeft} >
             <div className={Style.Name} >
                 Adithyadas U S
