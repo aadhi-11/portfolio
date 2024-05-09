@@ -7,9 +7,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
 }
-html{
+
+*{
   margin: 0px;
-  padding: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 code {
