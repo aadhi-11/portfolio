@@ -22,7 +22,7 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    width: 50%;
+    width: 40%;
     margin-top: 0.5rem;
 }
 
@@ -47,7 +47,7 @@
 
 .HeaderRight{
     margin-top: 0.5rem;
-    width: 50%;
+    width: 60%;
     display: flex;
     height: 100%;
     align-items: center;
@@ -56,7 +56,7 @@
     display: flex;
     flex-direction: row;
     margin-left: 30%;
-    width: 50%;
+    width: 60%;
     gap: 2rem;
     height: 100%;
     align-items: center;
@@ -66,8 +66,8 @@
   display: flex;
   flex-direction: row;
   margin-left: 30%;
-  width: 50%;
-  gap: 2rem;
+  width: 60%;
+  gap: 2.5rem;
   height: 100%;
   align-items: center;
   margin-top: 0.5rem;
@@ -139,6 +139,7 @@
     .inner{
       width: 100%;
       margin-left: 0px;
+      gap: 0.8rem;
     }
     .innerOpt{
       display: none;

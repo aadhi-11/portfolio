@@ -28,6 +28,9 @@ const Header = () => {
                             <div className={Style.each} >
                                 About
                             </div>
+                            <div className={Style.each}>
+                                Education
+                            </div>
                             <div className={Style.each} >
                                 Skills
                             </div>
@@ -41,8 +44,17 @@ const Header = () => {
                     ) : ''
                 }
                 <div className={Style.innerOpt} >
-                    <div className={Style.each} >
-                        About
+                    <div className={Style.each}>
+                        <a href='#about' style={{
+                            textDecoration: 'none',
+                            color: 'white'
+                        }}>
+                            About
+                        </a>
+                    </div>
+
+                    <div className={Style.each}>
+                        Education
                     </div>
                     <div className={Style.each} >
                         Skills
