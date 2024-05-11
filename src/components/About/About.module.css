@@ -51,9 +51,10 @@
   display: flex;
   flex-direction: column;
   align-items: start;
+  animation: shake  2s;
 }
 .Right:hover{
-  animation: shake  2s;
+  
 }
 .im {
   margin-top: 10rem;
