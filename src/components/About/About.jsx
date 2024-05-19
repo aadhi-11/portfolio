@@ -14,7 +14,7 @@ const About = () => {
       <div className={Style.Right} >
         <h3 className={Style.im} >I'M</h3>
         <h1 className={Style.Name} >ADITHYADAS U S</h1>
-        <h2 className={Style.Description} >FULLSTACK WEB DEVELOPER</h2>
+        <h2 className={Style.Description} >Software Developer</h2>
         <div className={Style.BtnReadMore} >Read More ... <KeyboardDoubleArrowRightIcon/> </div>
       </div>
     </div>

@@ -1,0 +1,19 @@
+.container{
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(95,95,95,1) 44%, rgba(255,255,255,1) 100%);
+    display: flex;
+    flex-direction: column;
+
+}
+.inner{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.each{
+    flex:1;
+    display: flex;
+    width: 2rem;
+}

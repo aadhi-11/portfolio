@@ -1,27 +1,34 @@
 .eduMain{
-    max-height: 55dvh;
-    background: white;
+    background: rgb(0, 0, 0);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
     width: 100%;
 }
+
 .eduContainer{
+    padding-top: 2rem;
     margin: 1rem;
-    width: 80%;
-    height: 80%;
     display: flex;
-    gap: 2rem;
+    gap: 7rem;
     flex-wrap: wrap;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .educard{
-    width: 30%;
-    height: 45dvh;
+    height: 60dvh;
     background-color: black;
     border-radius: 8px;
     color: white;
+    flex: 1;
+    border: 1px solid rgb(255, 255, 255);
+    transition: scale 0.8s ease-in-out;
+    cursor: pointer;
+}
+.educard:hover{
+    scale: 1.01;
 }
 .up{
     height: 60%;
@@ -30,11 +37,66 @@
     justify-content: center;
     align-items: center;
 }
-.edulogo{
-    width: 100%;
-    height: 100%;
+.cover{
+    width: 80%;
+    height: 70%;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: background-color 0.8s ease-in-out,color 2s ease-in-out,border 2s ease-in-out ;
+
+}
+.cover:hover{
+    /* scale: 1.2; */
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
 }
 .course{
-    font-size: 20px;
+    margin-top: 1rem;
+    font-size: 21px;
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 1rem;
+
+    /* margin-left: 2rem; */
+}
+.College{
+    margin-top: 1rem;
+    font-size: 18px;
     font-weight: 600;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    margin-left: 1rem;
+}
+.icon{
+    margin-top: 0rem;
+    cursor: pointer;
+}
+
+.from{
+    margin-top: 1rem;
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    color: goldenrod;
+    /* margin-left: 2rem; */
 }
