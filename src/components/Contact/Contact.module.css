@@ -1,0 +1,141 @@
+.container{
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 33%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);
+}
+
+.inner{
+    margin-top: 2rem;
+    width: 70%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    gap: 5rem;
+    flex: wrap;
+    flex-direction: row;
+    
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: start;
+    flex: 1;
+    gap: 2rem;
+
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+}
+.rightfrom{
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.each{
+    width: 80%;
+    height: 2rem;
+    gap: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.each input{
+    width: 70%;
+    height: 2rem;
+    background-color: rgba(40, 40, 40, 0.756);
+    outline: none;
+    border:none;
+    /* border-bottom: 1px solid black; */
+    /* border-bottom: 1px solid gray; */
+    border-radius: 8px;
+    transition: all 0.5s ease;
+}
+.each input:focus{
+    background-color: rgba(255, 255, 255, 0.544);
+    color: white;
+    font-size: 14px;
+    padding: 0.4rem;
+    font-family: "Poppins",sans-serif;
+    font-weight: 400;
+}
+.each label{
+    font-family: 'Poppins',sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.social{
+    font-size: 15px;
+}
+.btn{
+    /* margin-left: auto; */
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 83%;
+    border: none;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Popppins',sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 1s ease-in-out;
+}
+.btn:hover{
+    color: white;
+    background-color: rgb(38, 43, 39);
+}
+@media only screen and (max-width: 900px) {
+    .container{
+        background: black;
+    }
+    .inner{
+        flex-direction: column-reverse;
+        width: 95%;
+    }
+    .left{
+        flex-direction: row;
+        gap: 0.5rem;
+        flex: 1;
+        width: 100%;
+        flex-wrap: nowrap;
+        justify-content: start;
+        margin-bottom: 2rem;
+    }
+    .each{
+        width: 100%;
+    }
+    .btn{
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .social{
+        font-size: 10px;
+    }
+    .btn{
+        width: 100%;
+    }
+    .each input{
+        background-color: aliceblue;
+    }
+}

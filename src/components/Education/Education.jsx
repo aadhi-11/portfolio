@@ -12,9 +12,13 @@ import DoubleArrowIcon from '@mui/icons-material/DoubleArrow';const Education = 
             <div className={styles.cover} >BCA</div>
           </div>
           <div className={styles.down} >
-            <h1 className={styles.course} ><DoubleArrowIcon className={styles.icon} />Bachelor Of computer Applications</h1>
-            <h3 className={styles.College}  > <DoubleArrowIcon className={styles.icon} /> YMBC Kothamangalam</h3>
-            <p className={styles.from}  ><MilitaryTechIcon/><MilitaryTechIcon/><MilitaryTechIcon/></p>
+            <h1 className={styles.course} >Bachelor Of computer Applications</h1>
+            <hr />
+
+            <h3 className={styles.College}  > YMBC Kothamangalam</h3>
+            <h3 className={styles.College}  >score:76%</h3>
+
+
           </div>
         </div>
 
@@ -23,9 +27,12 @@ import DoubleArrowIcon from '@mui/icons-material/DoubleArrow';const Education = 
             <div className={styles.cover} >+2</div>
           </div>
           <div className={styles.down} >
-            <h1 className={styles.course} ><DoubleArrowIcon className={styles.icon} />Higher Secondary (+2) </h1>
-            <h3 className={styles.College}  > <DoubleArrowIcon className={styles.icon} /> HSS Vallappuzha</h3>
-            <p className={styles.from}  ><MilitaryTechIcon/><MilitaryTechIcon/><MilitaryTechIcon/></p>
+            <h1 className={styles.course} >Higher Secondary (+2) </h1>
+            <hr />
+
+            <h3 className={styles.College}  > HSS Vallappuzha</h3>
+            <h3 className={styles.College}  >score:97%</h3>
+
 
           </div>
         </div>
@@ -35,9 +42,11 @@ import DoubleArrowIcon from '@mui/icons-material/DoubleArrow';const Education = 
             <div className={styles.cover} >10</div>
           </div>
           <div className={styles.down} >
-            <h1 className={styles.course} ><DoubleArrowIcon className={styles.icon} />High School (10)</h1>
-            <h3 className={styles.College}  > <DoubleArrowIcon className={styles.icon} />  HSS Vallappuzha</h3>
-            <p className={styles.from}  ><MilitaryTechIcon/><MilitaryTechIcon/><MilitaryTechIcon/></p>
+            <h1 className={styles.course} >High School (10)</h1>
+            <hr />
+            <h3 className={styles.College}  >   HSS Vallappuzha</h3>
+            <h3 className={styles.College}  >score:100%</h3>
+
 
           </div>
         </div>

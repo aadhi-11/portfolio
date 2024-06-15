@@ -1,0 +1,97 @@
+.container{
+    color: white;
+    width: 100%;
+    background-image: linear-gradient(to top, #000000, #3b3b3b, #777777, #b9b9b9, #ffffff);
+    margin-bottom: 2rem;
+}
+.title{
+    color: rgb(0, 0, 0);
+    /* margin-top: 3rem; */
+    /* margin-left: 3rem; */
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.inner{
+    width: 66%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left a{
+    width: 70%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.img{
+    width: 100%;
+    scale: 0.7;
+    border-radius: 50%;
+    transition: all 0.9s ease-in-out;
+    border: 1px solid rgb(116, 116, 116);
+
+}
+.img:hover{
+    scale: 0.85;
+}
+.right{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid gray;
+    border-radius: 16px;
+
+}
+
+.Head{
+    color: rgb(0, 109, 187);
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.position{
+    color: rgb(0, 0, 0);
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 18px;
+}
+.description{
+    color: #ffffff;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+@media only screen and (max-width: 900px) {
+    .inner{
+        flex-direction: column;
+    }
+    .right{
+        flex:2;
+        width: 100%;
+    }
+}

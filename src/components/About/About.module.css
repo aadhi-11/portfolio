@@ -11,7 +11,7 @@
     180deg,
     rgba(0, 0, 0, 1) 0%,
     rgba(62, 62, 62, 1) 46%,
-    rgba(96, 96, 96, 1) 100%
+    rgb(0, 0, 0) 100%
   );
 }
 .left {
@@ -111,6 +111,7 @@
 @media only screen and (max-width: 900px) {
     .Main{
         flex-direction: column;
+        margin-top: 6rem;
     }
     .left{
       width: 100%;
